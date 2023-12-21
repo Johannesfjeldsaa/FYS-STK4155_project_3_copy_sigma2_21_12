@@ -1,0 +1,37 @@
+,Period,F1 score_train,F1 score_test,Model,classifier
+0,2039-2041,0.9195906432748537,0.8235294117647058,"{'C': 1.0, 'degree': 2, 'gamma': 0.1, 'kernel': 'rbf'}",SVC
+1,2036-2038,0.9563492063492064,0.9333333333333333,"{'C': 10.0, 'degree': 2, 'gamma': 0.0001, 'kernel': 'linear'}",SVC
+2,2033-2035,0.903030303030303,0.7999999999999999,"{'C': 100.0, 'degree': 2, 'gamma': 0.1, 'kernel': 'rbf'}",SVC
+3,2030-2032,0.8455988455988456,0.7999999999999999,"{'C': 10.0, 'degree': 2, 'gamma': 0.1, 'kernel': 'sigmoid'}",SVC
+4,2027-2029,0.8405863142705249,0.7999999999999999,"{'C': 10.0, 'degree': 2, 'gamma': 0.1, 'kernel': 'sigmoid'}",SVC
+5,2024-2026,0.6805555555555557,0.6086956521739131,"{'C': 0.001, 'degree': 2, 'gamma': 0.0001, 'kernel': 'rbf'}",SVC
+6,2021-2023,0.728124659474774,0.6153846153846153,"{'C': 10.0, 'degree': 2, 'gamma': 1.0, 'kernel': 'rbf'}",SVC
+7,2018-2020,0.6805555555555557,0.6086956521739131,"{'C': 0.001, 'degree': 2, 'gamma': 0.0001, 'kernel': 'rbf'}",SVC
+8,2015-2017,0.6805555555555557,0.6086956521739131,"{'C': 0.001, 'degree': 2, 'gamma': 0.0001, 'kernel': 'rbf'}",SVC
+0,2039-2041,0.9021739130434782,0.8235294117647058,"{'max_depth': 1, 'min_samples_leaf': 2, 'min_samples_split': 2}",DT
+1,2036-2038,0.8838763575605681,0.9333333333333333,"{'max_depth': 3, 'min_samples_leaf': 2, 'min_samples_split': 5}",DT
+2,2033-2035,0.8377777777777778,0.7999999999999999,"{'max_depth': 3, 'min_samples_leaf': 4, 'min_samples_split': 2}",DT
+3,2030-2032,0.730566534914361,0.75,"{'max_depth': 5, 'min_samples_leaf': 2, 'min_samples_split': 2}",DT
+4,2027-2029,0.6418597742127153,0.7777777777777778,"{'max_depth': 3, 'min_samples_leaf': 2, 'min_samples_split': 2}",DT
+5,2024-2026,0.7044945697577276,0.5,"{'max_depth': 10, 'min_samples_leaf': 2, 'min_samples_split': 10}",DT
+6,2021-2023,0.6180555555555556,0.6363636363636364,"{'max_depth': 2, 'min_samples_leaf': 2, 'min_samples_split': 2}",DT
+7,2018-2020,0.5995726495726496,0.6250000000000001,"{'max_depth': 2, 'min_samples_leaf': 4, 'min_samples_split': 2}",DT
+8,2015-2017,0.6473429951690822,0.6250000000000001,"{'max_depth': 15, 'min_samples_leaf': 4, 'min_samples_split': 10}",DT
+0,2039-2041,0.9274264382960036,0.8235294117647058,"{'bootstrap': True, 'max_depth': None, 'max_features': None, 'min_samples_leaf': 2, 'min_samples_split': 5, 'n_estimators': 50}",RF
+1,2036-2038,0.9262187088274044,1.0,"{'bootstrap': True, 'max_depth': 5, 'max_features': None, 'min_samples_leaf': 4, 'min_samples_split': 5, 'n_estimators': 10}",RF
+2,2033-2035,0.884901185770751,0.7999999999999999,"{'bootstrap': True, 'max_depth': 10, 'max_features': None, 'min_samples_leaf': 1, 'min_samples_split': 10, 'n_estimators': 10}",RF
+3,2030-2032,0.7954545454545454,0.75,"{'bootstrap': True, 'max_depth': 5, 'max_features': None, 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 10}",RF
+4,2027-2029,0.6871980676328503,0.7058823529411764,"{'bootstrap': True, 'max_depth': 10, 'max_features': 'log2', 'min_samples_leaf': 2, 'min_samples_split': 5, 'n_estimators': 10}",RF
+5,2024-2026,0.734949494949495,0.5714285714285714,"{'bootstrap': True, 'max_depth': 5, 'max_features': None, 'min_samples_leaf': 1, 'min_samples_split': 5, 'n_estimators': 50}",RF
+6,2021-2023,0.6712454212454212,0.36363636363636365,"{'bootstrap': True, 'max_depth': 15, 'max_features': None, 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 10}",RF
+7,2018-2020,0.5361977834612106,0.5333333333333333,"{'bootstrap': True, 'max_depth': None, 'max_features': 'sqrt', 'min_samples_leaf': 1, 'min_samples_split': 5, 'n_estimators': 10}",RF
+8,2015-2017,0.6752136752136751,0.631578947368421,"{'bootstrap': True, 'max_depth': None, 'max_features': None, 'min_samples_leaf': 4, 'min_samples_split': 10, 'n_estimators': 10}",RF
+0,2039-2041,0.8288024408848207,0.8235294117647058,"{'max_depth': 1, 'min_samples_leaf': 2, 'min_samples_split': 2, 'n_estimators': 10}",ADA
+1,2036-2038,0.8800426626513582,0.9333333333333333,"{'max_depth': 3, 'min_samples_leaf': 2, 'min_samples_split': 5, 'n_estimators': 10}",ADA
+2,2033-2035,0.760546642899584,0.9333333333333333,"{'max_depth': 3, 'min_samples_leaf': 4, 'min_samples_split': 2, 'n_estimators': 10}",ADA
+3,2030-2032,0.7691197691197691,0.7777777777777778,"{'max_depth': 5, 'min_samples_leaf': 2, 'min_samples_split': 2, 'n_estimators': 200}",ADA
+4,2027-2029,0.6491334752204317,0.7368421052631579,"{'max_depth': 15, 'min_samples_leaf': 2, 'min_samples_split': 2, 'n_estimators': 500}",ADA
+5,2024-2026,0.637876743139901,0.5333333333333333,"{'max_depth': 10, 'min_samples_leaf': 2, 'min_samples_split': 10, 'n_estimators': 500}",ADA
+6,2021-2023,0.5626849733028223,0.42857142857142855,"{'max_depth': 2, 'min_samples_leaf': 2, 'min_samples_split': 2, 'n_estimators': 10}",ADA
+7,2018-2020,0.4718518518518519,0.6250000000000001,"{'max_depth': 2, 'min_samples_leaf': 4, 'min_samples_split': 2, 'n_estimators': 10}",ADA
+8,2015-2017,0.6155969634230503,0.5555555555555556,"{'max_depth': 4, 'min_samples_leaf': 4, 'min_samples_split': 10, 'n_estimators': 1000}",ADA
